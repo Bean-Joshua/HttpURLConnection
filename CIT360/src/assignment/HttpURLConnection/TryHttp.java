@@ -14,7 +14,7 @@ public class TryHttp {
 	  
 	    try{
 	      System.out.println("Starting Attempt");
-	      URL url = new URL("www.android.com");
+	      URL url = new URL("http://takeshikawa.deviantart.com/art/Hi-Tech-Desktop-Rainmeter-for-all-windows-328429757");
 	      urlConn = (HttpURLConnection)url.openConnection();
 	      urlConn.setRequestMethod("GET");
 	      urlConn.setDoInput (true);
